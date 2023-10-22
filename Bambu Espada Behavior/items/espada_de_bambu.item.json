@@ -14,23 +14,46 @@
 				"texture": "espada_de_bambu"
 			},
 			"minecraft:display_name": {
-				"value": "Espada de Bambu"
+				"value": "Katana de Bambu"
 			},
-			"minecraft:damage": 6,
+			"minecraft:damage": 5,
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:durability": {
 				"max_durability": 251
 			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "extra:bamboo_buff"
+				}
+			},
 			"minecraft:repairable": {
 				"repair_items": [
 					{
-						"items": ["bamboo"],
+						"items": [
+							"bamboo"
+						],
 						"repair_amount": 62
 					}
 				]
 			},
 			"minecraft:fuel": {
 				"duration": 10
+			}
+		},
+		"events": {
+			"extra:bamboo_buff": {
+				"run_command": {
+					"command": [
+						"playsound mob.enderdragon.flap @s ~ ~1 ~ 0.3 1.9",
+						"particle minecraft:large_explosion ~ ~0.2 ~",
+						"effect @s speed 1 6 true"
+					]
+				},
+				"damage": {
+					"type": "durability",
+					"amount": 15,
+					"target": "self"
+				}
 			}
 		}
 	}
