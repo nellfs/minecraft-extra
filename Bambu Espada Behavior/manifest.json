@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Bambu Espada",
+		"description": "Bambu Espada Behavior Pack",
+		"uuid": "29b7b686-b752-addd-232e-da5701fc5756",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 0]
+	},
+	"metadata": {
+		"authors": ["nellfs"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.0.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "6ada22d7-2cae-9cc9-146b-d7abb889e107",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c073b9c9-ba66-9da1-4e46-894e6261c91b",
+			"version": [1, 0, 0]
+		}
+	]
+}

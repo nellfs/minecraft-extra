@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Bambu Espada",
+		"description": "Bambu Espada Resource Pack",
+		"uuid": "c073b9c9-ba66-9da1-4e46-894e6261c91b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["nellfs"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.0.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Bambu Espada",
+			"type": "resources",
+			"uuid": "e40b59b1-533d-4d3c-17e7-663c5dbf1b35",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "extra:espada_de_bambu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "X",
+      "I"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:bamboo"
+      },
+      "I": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "extra:espada_de_bambu"
+      }
+    ],
+    "result": {
+      "item": "extra:espada_de_bambu"
+    }
+  }
+}

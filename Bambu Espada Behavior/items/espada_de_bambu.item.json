@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "extra:espada_de_bambu",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "espada_de_bambu"
+			},
+			"minecraft:display_name": {
+				"value": "Espada de Bambu"
+			},
+			"minecraft:damage": 6,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:durability": {
+				"max_durability": 251
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["bamboo"],
+						"repair_amount": 62
+					}
+				]
+			},
+			"minecraft:fuel": {
+				"duration": 10
+			}
+		}
+	}
+}
