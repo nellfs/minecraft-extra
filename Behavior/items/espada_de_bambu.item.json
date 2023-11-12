@@ -51,7 +51,7 @@
 				},
 				"damage": {
 					"type": "durability",
-					"amount": 15,
+					"amount": 5,
 					"target": "self"
 				}
 			}
