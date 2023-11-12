@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "myname:bone_correio",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "bone_correio"
+			},
+			"minecraft:display_name": {
+				"value": "Capacete do Entregador"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 20
+			},
+			"minecraft:durability": {
+				"max_durability": 2100
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["rabbit_hide"],
+						"repair_amount": 2100
+					}
+				]
+			},
+			"minecraft:fuel": {
+				"duration": 800
+			}
+		}
+	}
+}
