@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "myname:bloco_de_carne_estranha"
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.bloco_de_carne_estranha",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bloco_de_carne_estranha",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#e76b6b"
+		}
+	}
+}

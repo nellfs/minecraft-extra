@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "myname:bloco_de_criatura_de_carne_estranha",
+      "menu_category": {
+        "category": "hidden"
+      }
+    },
+    "components": {
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bloco_de_criatura_de_carne_estranha"
+        }
+      }
+    }
+  }
+	}
